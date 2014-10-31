@@ -1,2 +1,8 @@
 ---
 # defaults file for aeonix-upgrade
+ - hosts: aeonix
+   tasks:
+   - name: ensure bash is at the latest version
+     yum: pkg=bash state=latest
+   - name: copy and run setup-2.3.102.sh
+     script: /tmp/setup-2.3.102.sh -auto
