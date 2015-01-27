@@ -4,5 +4,7 @@
    tasks:
    - name: ensure bash is at the latest version
      yum: pkg=bash state=latest
+   - name: backup current aeonix
+     bash: aeonix_exportDB.sh aeonix-backup-$(date -I).xml
    - name: copy and run setup-2.3.102.sh
      script: /tmp/setup-2.3.102.sh -auto
