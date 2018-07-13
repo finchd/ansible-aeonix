@@ -1,5 +1,5 @@
-Role Name
-=========
+aeonix-upgrade
+==============
 
 Upgrades an Aeonix install using setup-X.X-YYY.sh.
 
@@ -35,4 +35,4 @@ MIT
 Author Information
 ------------------
 
-Donovan Finch https://github.com/finchd https://bitbucket.org/finchd finchd@dfin.ch
+Donovan Finch https://github.com/finchd https://bitbucket.org/finchd
